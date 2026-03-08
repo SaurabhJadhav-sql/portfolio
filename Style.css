@@ -1,0 +1,85 @@
+body{
+    background-color: #f2f2f2;
+    font-family: Arial;
+    transition: 0.3s;
+}
+h1{
+    color: darkblue;
+}
+h2{
+    color: darkgreen;
+}
+img{
+    border-radius: 10px;
+}
+.Section{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(12, 12, 12, 0.4);
+    
+}
+.Container{
+    max-width: 800px;
+    margin: auto;
+}
+.Section:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.navbar{
+    background-color: darkblue;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+html{
+    scroll-behavior:smooth
+}
+
+.btn{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: green;
+}
+
+.footer{
+    text-align: center;
+    padding:"15px";
+    background-color: darkblue;
+    color: White;
+    margin-top: 30px;
+}
+
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.dark-mode-section{
+    background-color: #1e1e1e;
+    color: white;
+}
+.darkbtn{
+    float: right;
+    background: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;  
+}
+

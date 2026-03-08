@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div Class="Container">
+
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#Skills">Skills</a>
+            <a href="#websites">Website</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+
+            <button onclick="toggleDarkMode()"Class="darkbtn">🌙</button>
+            
+        </div>
+
+    
+
+
+        <div class="Section" id="home">
+            <h1>My Profile</h1>
+            <hr>
+            <h2>Saurabh</h2>
+            <p>I am Learning HTML</p>
+        </div>
+
+
+        <div class="Section" id="Skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+
+
+        <div class="Section" id="websites">
+            <h2>Usefull Website</h2>
+            <a href="https://www.youtube.com" target="_blank">Open Youtube</a><br>
+            <a href="https://www.Google.com" target="_blank">Open Google</a>
+        </div>
+
+
+        <div class="Section">
+            <h2>My Favorite Technology</h2>
+            <img src="download (1).webp" width="200">
+        </div>
+
+        <div class="section" id="projects">
+            <h2>My projects</h2>
+            <ul>
+                <li>SQL practice Questions</li>
+                <li>Employee Database Project</li>
+                <li>Library Management Database</li>
+            </ul>
+            <a href="https://github.com/" target="_blank" class="btn">View My Github</a>
+        </div>
+
+        <div class="section" id="contact">
+            <h2>Contact Me</h2>
+            <p>if you want to contact with me:</p>
+            <a href="mailto:saurjadhav57@gmail.com" class="btn">Send Email</a>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <p>2026 Saurabh Jadhav | Learning Web Development</p>
+    </footer>
+
+    <script>
+        function toggleDarkMode(){
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
